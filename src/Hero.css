@@ -1,0 +1,66 @@
+/* Hero Section Styles */
+
+.hero {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px 50px;
+    background-color: #f8f9fa;
+  }
+  
+  .hero-content {
+    flex: 1;
+    max-width: 50%;
+  }
+  
+  .hero-heading {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+    transition: color 0.3s ease; /* Add transition for color change */
+  }
+  
+  .hero-description {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 30px;
+  }
+  
+  .hero-button {
+    padding: 15px 30px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Add transition for background-color and transform */
+  }
+  
+  .hero-button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05); /* Scale up the button on hover */
+  }
+  
+  .hero-image {
+    position: relative;
+    flex: 1;
+    max-width: 50%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .hero-image img {
+    max-width: 100%; /* Set image width to 100% of its container */
+    height: 500px; /* Maintain aspect ratio */
+    border-radius: 10px; /* Add border radius for rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add box shadow for depth */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Add transition for transform and box shadow */
+  }
+  
+  .hero-image img:hover {
+    transform: scale(1.05); /* Scale up the image on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Increase box shadow on hover for depth effect */
+  }
+  

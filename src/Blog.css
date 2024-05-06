@@ -1,0 +1,80 @@
+/* Blog.css */
+
+.blog {
+  padding: 100px 50px;
+  background-color: #f8f9fa;
+}
+
+.section-heading h2 {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 50px;
+}
+
+.blog-content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.blog-article {
+  flex: 1;
+  padding: 20px;
+  margin: 10px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease; /* Add transition for hover effect */
+}
+
+.blog-article:hover {
+  transform: translateY(-5px); /* Lift the article on hover */
+}
+
+.blog-article-link {
+  text-decoration: none;
+  color: #333;
+}
+
+.blog-article-image {
+  width: 100%;
+  border-radius: 5px;
+  transition: transform 0.3s ease; /* Add transition for hover effect */
+}
+
+.blog-article:hover .blog-article-image {
+  transform: scale(1.05); /* Zoom in the image on hover */
+}
+
+.blog-article-title {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.blog-article-info {
+  font-size: 14px;
+  color: #666;
+}
+
+.blog-article-date {
+  font-style: italic;
+}
+
+.cta {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.cta-button {
+  padding: 15px 30px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}

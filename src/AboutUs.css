@@ -1,0 +1,57 @@
+/* AboutUs.css */
+
+.about-us {
+  padding: 100px 50px;
+  background-color: #f8f9fa;
+}
+
+.section-heading h2 {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.section-content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.mission,
+.why-us {
+  flex: 1;
+  padding: 20px;
+  margin: 10px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease; /* Add transition for hover effect */
+}
+
+.mission:hover,
+.why-us:hover {
+  transform: translateY(-5px); /* Lift the section on hover */
+}
+
+.mission h3,
+.why-us h3 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.mission p,
+.why-us p {
+  font-size: 16px;
+  color: #666;
+}
+
+.mission:hover,
+.why-us:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a stronger shadow on hover */
+}
+
+@media (max-width: 768px) {
+  .mission,
+  .why-us {
+    flex-basis: 100%; /* Make sections full width on smaller screens */
+  }
+}
